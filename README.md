@@ -9,3 +9,6 @@ The `d3.pie()` and `d3.arc()` built-in methods are used to generate pie statisti
 
 `pie()` is used to generate an array that will be used while generating the pie chart.
 `arc()` is used to generate each pie slice using the SVG `path` tag.
+
+## SVG
+Here, we use a `g` tag and move it to the center of the placeholder SVG. This provides an origin point for each pie slice.
